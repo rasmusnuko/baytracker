@@ -1,7 +1,6 @@
 import sys
 import time
 import requests
-import argparse
 import numpy as np
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
