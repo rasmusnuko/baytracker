@@ -89,6 +89,8 @@ def plot_dates(axs, prices, dates):
   # Splitting price into amount and currency
   amounts = [price[0] for price in prices]
   currency = prices[0][1]
+  axs[0].set_xlabel("Dates")
+  axs[0].set_ylabel( ("Price in " + currency) )
 
   # Plotting each price with date
   for (date, amount) in zip(dates,amounts):
@@ -117,6 +119,8 @@ def plot_latest_listings(axs, IDs, prices):
   # Splitting price into amount and currency
   amounts = [price[0] for price in prices]
   currency = prices[0][1]
+  axs[1].set_xlabel("Oldest to newest sold listings")
+  axs[1].set_ylabel(( "Price in " + currency) )
 
   # Ploting latest 
   axs[1].scatter(IDs, list(reversed(amounts)))
