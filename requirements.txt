@@ -1,0 +1,4 @@
+numpy
+selenium
+beautifulsoup4
+matplotlib
