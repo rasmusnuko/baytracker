@@ -1,6 +1,9 @@
 **Descrition:** 
 This program shows price history of sold listings on eBay for a given item
 
+**Demo Image**
+![Demo](./images/demo.png)
+
 **Prerequisites:**
 ```
 pip install numpy
